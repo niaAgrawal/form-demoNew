@@ -1,0 +1,46 @@
+.battleWrapper{
+  display:flex;
+  flex-direction: row wrap;
+  margin-bottom: 20px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.battleChild{
+    background: #fff;
+    margin-bottom: 1.1em;
+    overflow: hidden;
+    margin-right: 1.1rem;
+    box-shadow: 0.1rem 0.1rem 0.4rem 0 #B3B3B3;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    flex: 0 0 23.5rem;
+    min-height: 10rem;
+    position: relative;
+    justify-content: flex-start;
+    padding: 1.2rem;
+    transition: transform .2s ease-in-out,box-shadow .2s ease-in-out;
+    width:500px;
+    
+}
+input{
+    margin:10px 0px;
+    padding:10px;
+}
+
+button{
+    border: 1px solid #1074e7;
+    background-color: #000;
+    border-radius: 3px;
+    color: rgb(216, 210, 210);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 24px;
+    transition: .2s;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
